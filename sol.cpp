@@ -47,7 +47,7 @@ int main() {
 					if (R >= 0 && R < n && C >= 0 && C < m)
 						if (a[R][C] == '*') cnt++;
 				}
-				// printf("%d\n", cnt);
+				//printf("%d\n", cnt);
 				if (a[i][j] == '.' && cnt > 0) ok = false;
 				if (a[i][j] != '.' && cnt != (a[i][j] - '0')) ok = false;
 			}
